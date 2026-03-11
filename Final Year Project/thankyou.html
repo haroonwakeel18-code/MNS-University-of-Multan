@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <title>freshcart</title>
+</head>
+<body>
+<header class="header-main bg-dark sticky-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <div class="content-headers text-center py-2">
+          <p class="text-white mb-0">Free standard shipping on all orders</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<header class="header">
+  <nav class="navbar navbar-expand-xl bg-white py-2">
+    <div class="container">
+      <div class="button-main">
+      <button class="navbar-toggler rounded-0 me-3 shadow-none" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation Bottom">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+      <a class="navbar-brand" href="index.html">
+       <img src="img/logo.svg" alt="Logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Shop -->
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+           <div class="dropdown-menu dropdown-menu-center rounded-0 border-0 shadow p-3" style="max-width: 900px;">
+  <div class="container-fluid">
+    <div class="row gy-3">
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Shop Layout</h6>
+        <a class="dropdown-item" href="shop-grid.html">Shop - Grid</a>
+        <a class="dropdown-item" href="#">Shop - List</a>
+        <a class="dropdown-item" href="#">Shop - Left Sidebar</a>
+        <a class="dropdown-item" href="#">Shop - Right Sidebar</a>
+        <a class="dropdown-item" href="#">Shop - Top Filter</a>
+        <a class="dropdown-item" href="#">Shop - No Filter</a>
+        <a class="dropdown-item" href="#">Shop - Collection</a>
+        <a class="dropdown-item" href="#">Shop - CollectionV2</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Product Layout</h6>
+        <a class="dropdown-item" href="#">Shop - Color Swatch</a>
+        <a class="dropdown-item" href="#">Shop - Stacked</a>
+        <a class="dropdown-item" href="#">Shop - Left Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Right Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Bottom Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Bottom</a>
+        <a class="dropdown-item" href="#">Thumbnail</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Shop Checkout</h6>
+        <a class="dropdown-item" href="cart.html">Cart</a>
+        <a class="dropdown-item" href="checkout.html">Checkout</a>
+        <a class="dropdown-item" href="thankyou.html">Thank You</a>
+        <a class="dropdown-item" href="trackorder.html">Order Track</a>
+      </div>
+    </div>
+  </div>
+</div>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row gy-2">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" href="#">Blog Single</a>
+          <a class="dropdown-item" href="#">Blog Category</a>
+          <a class="dropdown-item" href="#">About Us</a>
+          <a class="dropdown-item" href="#">FAQ</a>
+          <a class="dropdown-item" href="#">Review</a>
+          <a class="dropdown-item" href="#">404 Error</a>
+          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Auth</a>
+          <a class="dropdown-item" href="#">Order History</a>
+          <a class="dropdown-item" href="#">Wishlist</a>
+          <a class="dropdown-item" href="#">Payment Method</a>
+          <a class="dropdown-item" href="#">My Reviews</a>
+          <a class="dropdown-item" href="#">Personal Info</a>
+          <a class="dropdown-item" href="#">Address</a>
+          <a class="dropdown-item" href="#">Notification</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+          <li class="nav-item dropdown position-static ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mega Menu</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-4 w-100" style="left: 9%; max-width:1100px; margin:0 auto;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6 text-dark">Dining room & kitchen</h6>
+          <a class="dropdown-item" href="#">Dining table</a>
+          <a class="dropdown-item" href="#">Chairs</a>
+          <a class="dropdown-item" href="#">Plates, dishes and bowl</a>
+          <a class="dropdown-item" href="#">Sideboards</a>
+          <a class="dropdown-item" href="#">Cutlery</a>
+          <a class="dropdown-item" href="#">Glasses</a>
+          <a class="dropdown-item" href="#">Accessories</a>
+          <a class="dropdown-item" href="#">Dining room & kitchen textiles</a>
+          <a class="dropdown-item" href="#">Bedroom</a>
+          <a class="dropdown-item" href="#">Cupboards</a>
+          <a class="dropdown-item" href="#">Beds</a>
+          <a class="dropdown-item" href="#">Bed linen</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6">Product Layout</h6>
+          <a class="dropdown-item" href="#">Shop - Color Swatch</a>
+          <a class="dropdown-item" href="#">Shop - Stacked</a>
+          <a class="dropdown-item" href="#">Shop - Left Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Right Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Bottom Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Bottom</a>
+          <a class="dropdown-item" href="#">Thumbnail</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6">Shop Checkout</h6>
+          <a class="dropdown-item" href="#">Cart</a>
+          <a class="dropdown-item" href="#">Thank You</a>
+          <a class="dropdown-item" href="#">Order Track</a>
+          <a class="dropdown-item" href="#">Shop - Right Sidebar</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+          <img src="img/menu-benner.jpg" class="img-fluid shadow-sm" style="height: 100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Auth</a>
+        <a class="dropdown-item" href="#">Order History</a>
+        <a class="dropdown-item" href="#">Wishlist</a>
+        <a class="dropdown-item" href="#">Payment Method</a>
+        <a class="dropdown-item" href="#">My Reviews</a>
+        <a class="dropdown-item" href="#">Personal Info</a>
+        <a class="dropdown-item" href="#">Address</a>
+        <a class="dropdown-item" href="#">Notification</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+    </ul>
+    </div> 
+        <ul class="navbar-nav ms-auto flex-row align-items-center">
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <img src="img/ukm.png" width="16" height="13"> <span class="fs-6">GBP £</span>
+            </a>
+            <ul class="dropdown-menu rounded-0 border-0 shadow">
+              <li><a class="dropdown-item" href="#"><img src="img/au.png" width="16" height="13"> Australia (AUD $)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/ca.png" width="16" height="13"> Canada (CAD $)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/fr.png" width="16" height="13"> France (EUR €)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/us.png" width="16" height="13"> United States (USD $)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-md-3 d-none d-md-block">
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#searchSidebar" class="nav-link">
+              <img src="img/search.svg" class="search" alt="search">
+            </a>
+          </li>
+          <li class="nav-item me-md-3 d-none d-md-block">
+            <a href="sighn.html" class="nav-link">
+              <img src="img/search1.svg" class="search1" alt="sign in">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#newSidebar" class="nav-link">
+              <img src="img/search2.svg" class="search2" alt="cart">
+            </a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+</header>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="searchSidebar" aria-labelledby="searchSidebarLabel">
+  <div class="offcanvas-header pt-5">
+    <form class="mb-4">
+      <div class="input-group border-bottom">
+        <input type="text" class="form-control border-0" placeholder="Search for...">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </form>
+  </div>
+  <div class="offcanvas-body ms-3">
+     <h6 id="searchSidebarLabel" class="mb-4 text-secondary fw-normal">Popular</h6>
+    <nav>
+      <ul class="list-unstyled">
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Stylish Wooden Table Lamp</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Assortment of Tumbler</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Succulent Plant Pot</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Stainless electric kettle</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Wooden Stool</a></li>
+      </ul>
+    </nav>
+  </div>
+   </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="newSidebar" aria-labelledby="searchSidebarLabel">
+        <div class="offcanvas-header">
+          <h5>Shopping cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-center">
+        <div class="offcanvas-img">
+      <img src="img/search2.svg" class="search2" width="50">
+      </div>
+      <p>Your cart is empty</p>
+      <div class="button-7">
+        <button class="bg-dark text-white py-2 px-4">Continue shopping</button>
+      </div>
+     <nav>
+    </nav>
+  </div>
+</div>
+<!--Thank you-->
+<section class="thankyou" style="padding: 64px 0px;">
+  <div class="container" style="background: #ecebe9;">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="content-thank text-center" style="padding: 96px 50px;">
+          <div class="image-thank">
+            <img src="img/thanks.svg">
+          </div>
+          <div class="thankyou-main pt-4 pb-3">
+            <h1 class="fw-bold">Thank you for your order!</h1>
+            <p>Your order <span class="fw-bold">#123456</span>  accepted and will be processed shortly. Expect our courier today <span class="fw-bold">(Sunday, May 9) at 12:00 - 14:00 .</span></p>
+          </div>
+            <a href="shop-grid.html" class="btn bg-dark text-white text-decoration-none border-4 rounded-0 py-2 px-4">Continue Shopping</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--product-->
+<section class="product-one pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center pb-0 mb-5">
+          <h2 class="mb-0">You me also like</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="content-arival1">
+            <div class="content-image ">
+              <img src="img/product-1.jpg" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Sofa with wood legs</a></h6>
+            <p class="mb-0 fw-semibold">$34.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          <button class="bg-danger border-0"></button>
+          <button class="bg-primary border-0"></button>
+          </div>
+          </div>
+         </div>
+      </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="content-arival1">
+            <div class="content-image">
+              <img src="img/product2.jpg"class="img-fluid">
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Sofa with wood legs</a></h6>
+            <p class="mb-0 fw-semibold">$34.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="content-arival1">
+            <h6 class="position-absolute bg-primary text-white">New</h6>
+            <div class="content-image">
+              <img src="img/product3.jpg"class="img-fluid">
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Sofa with wood legs</a></h6>
+            <p class="mb-0 fw-semibold">$34.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          </div>
+          </div>
+          </div>
+        </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="content-arival1">
+            <div class="content-image">
+              <img src="img/product4.jpg"class="img-fluid">
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Sofa with wood legs</a></h6>
+            <p class="mb-0 fw-semibold">$34.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          <button class="bg-danger border-0"></button>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</section>
+
+<!--footer section start -->  
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <img src="img/logo.svg" alt="logo">
+        </div>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-lg-2 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">Shop</h3>
+          <ul class="ul1 list-unstyled lh-lg flex-column">
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Kitchen</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Decoration</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Office</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Lighting chair</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">FreshCart</h3>
+          <ul class="ul1 list-unstyled lh-lg nav flex-column">
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">About</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">FAQ</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Contact</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Help Center</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Store Locator</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">Customer Service</h3>
+          <ul class="ul1 list-unstyled lh-lg nav flex-column">
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">My Orders</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">My Account</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Track my Order</a>
+            </li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Delivery
+                Information</a>
+            </li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Return Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="contact text-dark fw-normal">
+          <h3 class="fs-5 mb-lg-4 mb-3">Contact us</h3>
+          <p class="mb-2">Get in Touch</p>
+          <p class="mb-1">0123 456 789</p>
+          <p>info@freshcart.com</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <div>
+          <h3 class="fs-5 mb-3">Reviews</h3>
+          <img src="img/trust.png">
+          <p class="mb-1">TrustScore 4.8</p>
+          <p class="mb-2">10020 reviews</p>
+          <div class="mb-1">
+             <a href="#!" class="text-facebook text-decoration-none">
+              <i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#!" class="text-linkedin text-decoration-none">
+              <i class="fa-brands fa-linkedin"></i></a>
+            <a href="#!" class="text-instagram text-decoration-none">
+              <i class="fa-brands fa-instagram"></i></a>
+            <a href="#!" class="text-youtube text-decoration-none">
+              <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom py-lg-6 py-4">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-8">
+          <p class="mb-0">
+            © 2024, FreshCart Furniture Theme.&nbsp;Powered
+            <a href="#" class="text-decoration-none text-dark">CodesCandy</a>
+          </p>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-lg-end mt-0">
+          <div class="d-flex align-items-center">
+            <a href="#!">
+              <img src="img/visa.svg" class="img1 me-1 pt-3" width="40">
+            </a>
+            <a href="#!">
+              <img src="img/mastercard.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/amex.svg" class="me-2 pt-3" width="35">
+            </a>
+            <a href="#!">
+              <img src="img/paypal.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/diners.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/discover.svg" class="pt-3" width="38">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer section end -->
+</body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>

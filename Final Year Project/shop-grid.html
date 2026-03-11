@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <title>freshcart</title>
+</head>
+<body>
+<header class="header-main bg-dark sticky-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <div class="content-headers text-center py-2">
+          <p class="text-white mb-0">Free standard shipping on all orders</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<header class="header">
+  <nav class="navbar navbar-expand-xl bg-white py-2">
+    <div class="container">
+      <div class="button-main">
+      <button class="navbar-toggler rounded-0 me-3 shadow-none" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation Bottom">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+      <a class="navbar-brand" href="index.html">
+       <img src="img/logo.svg" alt="Logo">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Shop -->
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+           <div class="dropdown-menu dropdown-menu-center rounded-0 border-0 shadow p-3" style="max-width: 900px;">
+  <div class="container-fluid">
+    <div class="row gy-3">
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Shop Layout</h6>
+        <a class="dropdown-item" href="shop-grid.html">Shop - Grid</a>
+        <a class="dropdown-item" href="#">Shop - List</a>
+        <a class="dropdown-item" href="#">Shop - Left Sidebar</a>
+        <a class="dropdown-item" href="#">Shop - Right Sidebar</a>
+        <a class="dropdown-item" href="#">Shop - Top Filter</a>
+        <a class="dropdown-item" href="#">Shop - No Filter</a>
+        <a class="dropdown-item" href="#">Shop - Collection</a>
+        <a class="dropdown-item" href="#">Shop - CollectionV2</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Product Layout</h6>
+        <a class="dropdown-item" href="#">Shop - Color Swatch</a>
+        <a class="dropdown-item" href="#">Shop - Stacked</a>
+        <a class="dropdown-item" href="#">Shop - Left Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Right Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Bottom Thumbnail</a>
+        <a class="dropdown-item" href="#">Shop - Bottom</a>
+        <a class="dropdown-item" href="#">Thumbnail</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6 class="dropdown-header fs-6">Shop Checkout</h6>
+        <a class="dropdown-item" href="cart.html">Cart</a>
+        <a class="dropdown-item" href="checkout.html">Checkout</a>
+        <a class="dropdown-item" href="thankyou.html">Thank You</a>
+        <a class="dropdown-item" href="trackorder.html">Order Track</a>
+      </div>
+    </div>
+  </div>
+</div>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row gy-2">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Blog</a>
+          <a class="dropdown-item" href="#">Blog Single</a>
+          <a class="dropdown-item" href="#">Blog Category</a>
+          <a class="dropdown-item" href="#">About Us</a>
+          <a class="dropdown-item" href="#">FAQ</a>
+          <a class="dropdown-item" href="#">Review</a>
+          <a class="dropdown-item" href="#">404 Error</a>
+          <a class="dropdown-item" href="#">Contact</a>
+          <a class="dropdown-item" href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Auth</a>
+          <a class="dropdown-item" href="#">Order History</a>
+          <a class="dropdown-item" href="#">Wishlist</a>
+          <a class="dropdown-item" href="#">Payment Method</a>
+          <a class="dropdown-item" href="#">My Reviews</a>
+          <a class="dropdown-item" href="#">Personal Info</a>
+          <a class="dropdown-item" href="#">Address</a>
+          <a class="dropdown-item" href="#">Notification</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+          <li class="nav-item dropdown position-static ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Mega Menu</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-4 w-100" style="left: 9%; max-width:1100px; margin:0 auto;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6 text-dark">Dining room & kitchen</h6>
+          <a class="dropdown-item" href="#">Dining table</a>
+          <a class="dropdown-item" href="#">Chairs</a>
+          <a class="dropdown-item" href="#">Plates, dishes and bowl</a>
+          <a class="dropdown-item" href="#">Sideboards</a>
+          <a class="dropdown-item" href="#">Cutlery</a>
+          <a class="dropdown-item" href="#">Glasses</a>
+          <a class="dropdown-item" href="#">Accessories</a>
+          <a class="dropdown-item" href="#">Dining room & kitchen textiles</a>
+          <a class="dropdown-item" href="#">Bedroom</a>
+          <a class="dropdown-item" href="#">Cupboards</a>
+          <a class="dropdown-item" href="#">Beds</a>
+          <a class="dropdown-item" href="#">Bed linen</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6">Product Layout</h6>
+          <a class="dropdown-item" href="#">Shop - Color Swatch</a>
+          <a class="dropdown-item" href="#">Shop - Stacked</a>
+          <a class="dropdown-item" href="#">Shop - Left Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Right Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Bottom Thumbnail</a>
+          <a class="dropdown-item" href="#">Shop - Bottom</a>
+          <a class="dropdown-item" href="#">Thumbnail</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3">
+          <h6 class="dropdown-header fs-6">Shop Checkout</h6>
+          <a class="dropdown-item" href="#">Cart</a>
+          <a class="dropdown-item" href="#">Thank You</a>
+          <a class="dropdown-item" href="#">Order Track</a>
+          <a class="dropdown-item" href="#">Shop - Right Sidebar</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+          <img src="img/menu-benner.jpg" class="img-fluid shadow-sm" style="height: 100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+<li class="nav-item dropdown ms-lg-4">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+  <div class="dropdown-menu rounded-0 border-0 shadow p-3" style="min-width: 200px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <a class="dropdown-item" href="#">Auth</a>
+        <a class="dropdown-item" href="#">Order History</a>
+        <a class="dropdown-item" href="#">Wishlist</a>
+        <a class="dropdown-item" href="#">Payment Method</a>
+        <a class="dropdown-item" href="#">My Reviews</a>
+        <a class="dropdown-item" href="#">Personal Info</a>
+        <a class="dropdown-item" href="#">Address</a>
+        <a class="dropdown-item" href="#">Notification</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
+    </ul>
+    </div> 
+        <ul class="navbar-nav ms-auto flex-row align-items-center">
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <img src="img/ukm.png" width="16" height="13"> <span class="fs-6">GBP £</span>
+            </a>
+            <ul class="dropdown-menu rounded-0 border-0 shadow">
+              <li><a class="dropdown-item" href="#"><img src="img/au.png" width="16" height="13"> Australia (AUD $)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/ca.png" width="16" height="13"> Canada (CAD $)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/fr.png" width="16" height="13"> France (EUR €)</a></li>
+              <li><a class="dropdown-item" href="#"><img src="img/us.png" width="16" height="13"> United States (USD $)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-md-3 d-none d-md-block">
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#searchSidebar" class="nav-link">
+              <img src="img/search.svg" class="search" alt="search">
+            </a>
+          </li>
+          <li class="nav-item me-md-3 d-none d-md-block">
+            <a href="sighn.html" class="nav-link">
+              <img src="img/search1.svg" class="search1" alt="sign in">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#newSidebar" class="nav-link">
+              <img src="img/search2.svg" class="search2" alt="cart">
+            </a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+</header>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="searchSidebar" aria-labelledby="searchSidebarLabel">
+  <div class="offcanvas-header pt-5">
+    <form class="mb-4">
+      <div class="input-group border-bottom">
+        <input type="text" class="form-control border-0" placeholder="Search for...">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </form>
+  </div>
+  <div class="offcanvas-body ms-3">
+     <h6 id="searchSidebarLabel" class="mb-4 text-secondary fw-normal">Popular</h6>
+    <nav>
+      <ul class="list-unstyled">
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Stylish Wooden Table Lamp</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Assortment of Tumbler</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Succulent Plant Pot</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Stainless electric kettle</a></li>
+        <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Wooden Stool</a></li>
+      </ul>
+    </nav>
+  </div>
+   </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="newSidebar" aria-labelledby="searchSidebarLabel">
+        <div class="offcanvas-header">
+          <h5>Shopping cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-center">
+        <div class="offcanvas-img">
+      <img src="img/search2.svg" class="search2" width="50">
+      </div>
+      <p>Your cart is empty</p>
+      <div class="button-7">
+        <button class="bg-dark text-white py-2 px-4">Continue shopping</button>
+      </div>
+     <nav>
+    </nav>
+  </div>
+</div>
+<!--section page-->
+<section class="page-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-12">
+				<div class="content-page py-5">
+					<h1 class="text-white">Office</h1>
+					<p class="text-white fs-5 pt-3">As everyone heads back to work, whether that be into the office or the classroom, having an organized desk space is essential.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Breadcrumb start-->
+<section class="breadcrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <div class="content-bread">
+          <ol class="ul-class d-flex list-unstyled">
+            <li><a href="#" class="text-decoration-none text-dark fw-bold me-2">Shop</a></li>
+            <li><img src="img/bread.svg" class="me-2">office</li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="content-breadcrumb d-flex border-bottom pb-3 mb-3 pt-5">
+              <label class="fs-6 fw-bold" for="flexSwitchCheckChecked">In stock only</label>
+             <div class="form-check form-switch">
+                  <input class="form-check-input bg-black border-0" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked="">
+                </div>
+            </div>
+            <div class="color border-bottom pb-4">
+              <h5 class="fs-6">Color</h5>
+              <div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBlack">
+              <label class="form-check-label" for="filterBlack">Black</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBrown">
+              <label class="form-check-label" for="filterBrown">Brown</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterGreen">
+              <label class="form-check-label" for="filterGreen">Green</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterYellow">
+              <label class="form-check-label" for="filterYellow">Yellow</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterRed">
+              <label class="form-check-label" for="filterRed">Red</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterPink">
+              <label class="form-check-label" for="filterPink">Pink</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterCyan">
+              <label class="form-check-label" for="filterCyan">Cyan</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBlue">
+              <label class="form-check-label" for="filterBlue">Blue</label>
+              </div>
+                 <div>
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterGray">
+              <label class="form-check-label" for="filterGray">Gray</label>
+              </div>
+            </div>
+          </div>
+           <div class="colors border-bottom py-4">
+              <h5>
+              <a class="text-dark text-decoration-none fs-6" data-bs-toggle="collapse" href="#Brand" role="button" aria-expanded="true" aria-controls="Brand">
+              Brand
+              <i class="bi bi-chevron-down"></i>
+              </a>
+            </h5>
+              <div class="collapse show" id="Brand">
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBrand-1">
+              <label class="form-check-label" for="filterBrand-1">Brand-1</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBrand-2">
+              <label class="form-check-label" for="filterBrand-2">Brand-2</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBrand-3">
+              <label class="form-check-label" for="filterBrand-3">Brand-3</label>
+              </div>
+                <div class="pb-2">
+              <input class="form-check-input rounded-0 shadow-none" type="checkbox" value="" id="filterBrand-4">
+              <label class="form-check-label" for="filterBrand-4">Brand-4</label>
+              </div>
+              </div>
+            </div>
+             <div class="colors border-bottom py-4">
+            <h5>
+              <a class="text-dark text-decoration-none fs-6" data-bs-toggle="collapse" href="#productType" role="button" aria-expanded="true" aria-controls="productType">
+              Product Type
+              <i class="bi bi-chevron-down"></i> <!-- icon -->
+              </a>
+            </h5>
+            <div class="collapse show" id="productType">
+              <div class="pb-2">
+                <input class="form-check-input rounded-0 shadow-none" type="checkbox" id="filterKitchen">
+                <label class="form-check-label" for="filterKitchen">Kitchen</label>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0 shadow-none" type="checkbox" id="filterDecoration">
+                <label class="form-check-label" for="filterDecoration">Decoration</label>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0 shadow-none" type="checkbox" id="filterLighting">
+                <label class="form-check-label" for="filterLighting">Lighting</label>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0 shadow-none" type="checkbox" id="filterOffice">
+                <label class="form-check-label" for="filterOffice">Office</label>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0 shadow-none" type="checkbox" id="filterChair">
+                <label class="form-check-label" for="filterChair">Chair</label>
+              </div>
+            </div>
+          </div>
+               <div class="price-filter border-bottom pb-2">
+            <div class="prices d-flex justify-content-between">
+            <span class="label">Price</span>
+            <a href="#" class="text-dark fw-normal"><i class="fa-solid fa-chevron-up"></i></a>
+            <a href="#"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="slider">
+              <div class="range"></div>
+              <div class="thumb left"></div>
+              <div class="thumb right"></div>
+            </div>
+            <div class="values">
+              <span class="border py-1 px-3">$49</span>
+              <span class="border py-1 px-3">$199</span>
+            </div>
+          </div>
+              <div class="colorss border-bottom py-3">
+            <h6>
+              <a class="text-dark text-decoration-none" data-bs-toggle="collapse" href="#Rating" role="button" aria-expanded="true" aria-controls="Rating">
+              Rating
+              <i class="bi bi-chevron-down"></i> <!-- icon -->
+              </a>
+            </h6>
+            <div class="collapse show" id="Rating">
+              <div class="pb-2 align-items-center">
+                <input class="form-check-input rounded-0" type="checkbox" id="Ratingfive">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0" type="checkbox" id="Ratingfour">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0" type="checkbox" id="Ratingthree">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0" type="checkbox" id="Ratingtwo">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="pb-2">
+                <input class="form-check-input rounded-0" type="checkbox" id="Ratingone">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="contents-button pt-5 btn-light">
+                  <button class="button border-0 my-1">In Stock <i class="fa-solid fa-xmark"></i></button>
+                  <button class="button border-0 my-1">Black <i class="fa-solid fa-xmark"></i></button>
+                  <button class="button border-0 my-1">Brand <i class="fa-solid fa-xmark"></i></button>
+                  <button class="button border-0 my-1">Kitchen <i class="fa-solid fa-xmark"></i></button>
+                  <button class="button border-0 my-1">$10-$259 <i class="fa-solid fa-xmark"></i></button>
+                  <button class="button border-0 bg-white my-1">Clear all</button>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="item pt-5">
+                <div class="mt-1">
+                  <select id="basicSelect" class="form-select rounded-0">
+                    <option value="0">Sort by:Featured</option>
+                    <option value="1">Best selling</option>
+                    <option value="2">Alphabetically, A-Z</option>
+                    <option value="3">Alphabetically, Z-A</option>
+                    <option value="4">Price, low to high</option>
+                    <option value="5">Price, high to low</option>
+                    <option value="6">Date, old to new</option>
+                    <option value="7">Date, new to old</option>
+                  </select>
+                </div>
+               </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-arival6 pt-4">
+            <div class="content-image ">
+              <img src="img/product-1.jpg" class="img-fluid main-img">
+              <img src="img/products3.jpg" class="img-fluid hover-img">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Sofa with wood legs</a></h6>
+            <p class="mb-0 fw-semibold">$34.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          <button class="bg-danger border-0"></button>
+          <button class="bg-primary border-0"></button>
+          </div>
+          </div>
+         </div>
+      </div>
+           <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-arival7 pt-4">
+            <div class="content-image">
+              <h6 class="position-absolute bg-primary text-white">New</h6>
+              <span class="span-1 position-absolute bg-dark text-white">Sold Out</span>
+              <img src="img/product2.jpg"class="img-fluid main-img">
+              <img src="img/products4.jpg" class="img-fluid hover-img">
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Floor Lamp</a></h6>
+            <p class="mb-0 fw-semibold">$95.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          </div>
+          </div>
+          </div>
+        </div>
+             <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-arival8 pt-4">
+            <div class="content-image">
+               <h6 class="position-absolute bg-primary text-white">New</h6>
+              <img src="img/product3.jpg"class="img-fluid main-img">
+              <img src="img/products5.jpg"class="img-fluid hover-img">
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Comfort Seat Chair</a></h6>
+            <p class="mb-0 fw-semibold">$78.00</p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-6 col-12">
+          <div class="product mt-lg-5 mt-md-4">
+            <div class="position-absolute text-center pb-0">
+              <p class="main-para-pro text-center pb-0 mb-0 text-white">Discover the Kitchen Collection</p>
+              <a href="#" class="text-decoration-none text-white fs-5">View All</a>
+            </div>
+          </div>
+        </div>
+              <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-product1 mt-5">
+            <div class="content-image ">
+              <img src="img/products1.jpg" class="img-fluid main-img">
+              <img src="img/products2.jpg" class="img-fluid hover-img">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Armchair</a></h6>
+            <p class="mb-0 fw-semibold">
+              <span class="text-danger">$75.00</span>
+              <span class="text-dark text-decoration-line-through">$95.00</span>
+            </p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          <button class="bg-primary border-0"></button>
+          </div>
+          </div>
+         </div>
+      </div>
+            <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-product2 mt-5">
+            <div class="content-image ">
+              <span class="span-10 position-absolute bg-danger text-white mt-3 ms-3">On Sale</span>
+              <img src="img/product6.jpg" class="img-fluid main-img">
+              <img src="img/products10.jpg" class="img-fluid hover-img">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Fancy Metal Wall Clock</a></h6>
+            <p class="mb-0 fw-semibold">
+              <span class="text-danger">$35.00</span>
+              <span class="text-dark text-decoration-line-through">$45.00</span>
+            </p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          </div>
+          </div>
+         </div>
+      </div>
+            <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-product3 mt-5">
+            <div class="content-image ">
+              <img src="img/product8.jpg" class="img-fluid main-img">
+              <img src="img/products9.jpg" class="img-fluid hover-img">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Modern metal frame stool</a></h6>
+            <p class="mb-0 fw-semibold">
+              <span class="text-danger">$85.00</span>
+            </p>
+            <div class="button-4">
+          <button class="bg-success border-0"></button>
+          <button class="bg-danger border-0"></button>
+          <button class="bg-primary border-0"></button>
+          </div>
+          </div>
+         </div>
+      </div>
+            <div class="col-lg-4 col-md-6 col-12">
+          <div class="content-product4 mt-5">
+            <div class="content-image ">
+              <img src="img/products7.jpg" class="img-fluid main-img">
+              <img src="img/products8.jpg" class="img-fluid hover-img">
+            </div>
+            <div class="d-flex justify-content-between align-items-center mb-2 pt-3">
+              <span>BRAND</span>
+               <div class="fw-normal">
+              <span>4.3</span>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="mb-3">
+            <h6><a href="#" class="anchor text-decoration-none text-dark">Divine Trends Table Lamp</a></h6>
+            <p class="mb-0 fw-semibold">
+              <span class="text-danger">$70.00</span>
+            </p>
+            <div class="button-4">
+          <button class="bg-dark border-0"></button>
+          <button class="bg-success border-0"></button>
+          <button class="bg-danger border-0"></button>
+          </div>
+          </div>
+         </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Breadcrumb end-->
+<!--footer section start -->  
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <img src="img/logo.svg" alt="logo">
+        </div>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-lg-2 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">Shop</h3>
+          <ul class="ul1 list-unstyled lh-lg flex-column">
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Kitchen</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Decoration</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Office</a></li>
+            <li class="nav-item"><a href="#" class="anchors nav-link p-0 text-dark">Lighting chair</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">FreshCart</h3>
+          <ul class="ul1 list-unstyled lh-lg nav flex-column">
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">About</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">FAQ</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Contact</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Help Center</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Store Locator</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div>
+          <h3 class="fs-5 mb-lg-4 mb-3">Customer Service</h3>
+          <ul class="ul1 list-unstyled lh-lg nav flex-column">
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">My Orders</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">My Account</a></li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Track my Order</a>
+            </li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Delivery
+                Information</a>
+            </li>
+            <li class="nav-item"><a href="#!" class="anchors nav-link p-0 text-dark">Return Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <div class="contact text-dark fw-normal">
+          <h3 class="fs-5 mb-lg-4 mb-3">Contact us</h3>
+          <p class="mb-2">Get in Touch</p>
+          <p class="mb-1">0123 456 789</p>
+          <p>info@freshcart.com</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <div>
+          <h3 class="fs-5 mb-3">Reviews</h3>
+          <img src="img/trust.png">
+          <p class="mb-1">TrustScore 4.8</p>
+          <p class="mb-2">10020 reviews</p>
+          <div class="mb-1">
+             <a href="#!" class="text-facebook text-decoration-none">
+              <i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#!" class="text-linkedin text-decoration-none">
+              <i class="fa-brands fa-linkedin"></i></a>
+            <a href="#!" class="text-instagram text-decoration-none">
+              <i class="fa-brands fa-instagram"></i></a>
+            <a href="#!" class="text-youtube text-decoration-none">
+              <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom py-lg-6 py-4">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-8">
+          <p class="mb-0">
+            © 2024, FreshCart Furniture Theme.&nbsp;Powered
+            <a href="#" class="text-decoration-none text-dark">CodesCandy</a>
+          </p>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-lg-end mt-0">
+          <div class="d-flex align-items-center">
+            <a href="#!">
+              <img src="img/visa.svg" class="img1 me-1 pt-3" width="40">
+            </a>
+            <a href="#!">
+              <img src="img/mastercard.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/amex.svg" class="me-2 pt-3" width="35">
+            </a>
+            <a href="#!">
+              <img src="img/paypal.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/diners.svg" class="me-2 pt-3" width="38">
+            </a>
+            <a href="#!">
+              <img src="img/discover.svg" class="pt-3" width="38">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer section end -->
+</body>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>
